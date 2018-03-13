@@ -1,0 +1,135 @@
+
+
+  html, body, nav, ul, li, div, label, input, h1, img {
+      padding: 0;
+      margin: 0;
+  }
+
+html {
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    width: 33%;
+    margin: auto;
+    padding: 0;
+    background-color: red;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    float: right;
+    overflow: auto;
+}
+
+#navigationBox {
+    width: 100%;
+    height: 3em;
+    box-sizing: border-box;
+    padding: 2%;
+    background-color: white;
+}
+
+#navigationThing {
+    border: 1px solid gray;
+}
+
+#boxSearch, #boxSort {
+    width: 50%;
+    height: 100px;
+    float: left;
+    overflow: auto;
+}
+
+#navigationTitle {
+    height: auto;
+    overflow: auto;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+#navigationTitle > h1 {
+    overflow: auto;
+    margin-top: 5%;
+}
+
+#navigationBar {
+    background-color: darkgrey;
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+}
+
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+#navigationBar > ul > li {
+    background-color: grey;
+    width: 25%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    height: 2em;
+    color: red;
+}
+
+nav li:hover, nav .actief {
+    background-color: #dedede;
+}
+
+nav a {
+    color: red;
+    padding: 0 2em;
+    text-decoration: none;
+    line-height: 2em;
+    display: block;
+}
+
+#photoList {
+    padding: 1em 0;
+}
+#register{
+
+    margin: 0 auto;
+    width: 25em;
+    font-family: verdana, sans-serif;
+    border-left: 1px solid #ccc;
+    border-radius: 2%;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+}
+.photo {
+    border: 1px solid gray;
+    border-radius: 1%;
+    padding: 1em;
+    background-color: white;
+}
+
+.photo > img {
+    width: 100%;
+    margin: auto;
+}
+
+.photoInside {
+    padding: 2em 0;
+}
+
+fieldset {
+    margin: 0 auto;
+    width: 25em;
+    text-align: right;
+    font-family: verdana, sans-serif;
+    border-left: 1px solid #ccc;
+    border-radius: 2%;
+    background-color: white;
+}
+
+fieldset > label {
+    padding: 15px;
+}
